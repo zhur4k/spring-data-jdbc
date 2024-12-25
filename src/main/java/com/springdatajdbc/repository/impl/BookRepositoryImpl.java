@@ -4,10 +4,12 @@ import com.springdatajdbc.model.Book;
 import com.springdatajdbc.repository.BookRepository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 
+@Repository
 public class BookRepositoryImpl implements BookRepository {
 
     private final JdbcTemplate jdbcTemplate;
