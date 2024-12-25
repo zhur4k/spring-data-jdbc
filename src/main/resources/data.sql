@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS Book(
-    id BIGINT PRIMARY KEY,
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(255),
     author VARCHAR(255),
     publication_year DATE
